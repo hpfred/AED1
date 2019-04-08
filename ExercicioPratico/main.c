@@ -17,7 +17,7 @@ int main()
 {
     unsigned int nTotal = 3;
     void *pBuffer = malloc(nTotal*(sizeof(int)+sizeof(float)+sizeof(double)+1));       //+3 -> para receber separação entre os valores(\n, por exemplo)
-    Temp = malloc(sizeof(*pBuffer));
+    //Temp = malloc(sizeof(*pBuffer));
 
     Temp = pBuffer;
 
@@ -38,8 +38,9 @@ int main()
 
     imprimeBuffer(pBuffer, nTotal);
 
+    pBuffer = Temp;
     free(pBuffer);
-    free(Temp);
+    //free(Temp);
 
     return 0;
 }

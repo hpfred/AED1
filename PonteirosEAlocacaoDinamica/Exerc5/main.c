@@ -15,8 +15,8 @@ typedef struct{
 
 //typedef pessoa;
 
-preenche();
-imprime();
+void preenche();
+void imprime();
 
 int main(){
     pessoa *aluno = malloc(sizeof(pessoa));
@@ -29,7 +29,7 @@ int main(){
 }
 
 
-preenche(pessoa *aluno){
+void preenche(pessoa *aluno){
     printf("Informe o nome: ");
     scanf("%s",aluno->nome);
     printf("Informe a data de nascimento: ");
@@ -40,7 +40,7 @@ preenche(pessoa *aluno){
     return;
 }
 
-imprime(pessoa *aluno){
+void imprime(pessoa *aluno){
     printf("Nome: %s\n", aluno->nome);
 //    fgets(aluno->nome,30,stdin);
     printf("Data de Nascimento: %2d/%2d/%4d\n", aluno->data[0], aluno->data[1], aluno->data[2]);
