@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1555114481 source:c:\users\frepa\onedrive\documents\ufpel\5semestre\aed\exercicios\trabalhoseprovas\trabalhopratico1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

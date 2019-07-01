@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1560195183 source:/home/aluno/Downloads/F/t3_m4/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
